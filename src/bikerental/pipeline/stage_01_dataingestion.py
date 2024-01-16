@@ -2,6 +2,7 @@ from bikerental.config.configuration import ConfigurationManager
 from bikerental.conponents.data_ingestion import DataIngestion
 from bikerental import logger
 
+
 STAGE_NAME = "Data Ingestion stage"
 
 class DataIngestionTrainingPipeline:
